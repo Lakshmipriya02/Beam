@@ -343,67 +343,22 @@
                                                 </buttonConfiguration>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Self-Assessment Tests" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pj4-g9-lbA">
-                                                <rect key="frame" x="8" y="527.66666666666663" width="173.66666666666666" height="17.333333333333371"/>
+                                                <rect key="frame" x="8" y="527.66666666666663" width="173.66666666666666" height="20.333333333333371"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RPk-Hw-h6p">
-                                                <rect key="frame" x="0.0" y="570" width="393" height="130"/>
-                                                <subviews>
-                                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3ko-dE-eoW">
-                                                        <rect key="frame" x="-94" y="0.0" width="639" height="128"/>
-                                                        <subviews>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VP3-eg-cGj">
-                                                                <rect key="frame" x="35" y="0.0" width="133.66666666666666" height="110"/>
-                                                                <constraints>
-                                                                    <constraint firstAttribute="height" constant="110" id="apM-Ub-IE2"/>
-                                                                </constraints>
-                                                                <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="filled" title="Happier Living">
-                                                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                    <color key="baseBackgroundColor" red="0.96862745289999996" green="0.82745099070000006" blue="0.66666668650000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                                </buttonConfiguration>
-                                                            </button>
-                                                        </subviews>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                        <constraints>
-                                                            <constraint firstItem="VP3-eg-cGj" firstAttribute="leading" secondItem="3ko-dE-eoW" secondAttribute="leading" constant="35" id="FrY-WX-mUD"/>
-                                                            <constraint firstAttribute="bottom" secondItem="VP3-eg-cGj" secondAttribute="bottom" constant="8" id="P19-0i-GcF"/>
-                                                            <constraint firstAttribute="height" constant="128" id="QUW-CZ-POP"/>
-                                                            <constraint firstAttribute="bottom" secondItem="VP3-eg-cGj" secondAttribute="bottom" id="TUR-Q2-LI2"/>
-                                                            <constraint firstAttribute="width" constant="639" id="ZZE-NL-cE4"/>
-                                                            <constraint firstItem="VP3-eg-cGj" firstAttribute="top" secondItem="3ko-dE-eoW" secondAttribute="top" id="cH0-Hm-2le"/>
-                                                            <constraint firstItem="VP3-eg-cGj" firstAttribute="top" secondItem="3ko-dE-eoW" secondAttribute="top" id="wuk-x1-rkD"/>
-                                                        </constraints>
-                                                    </view>
-                                                </subviews>
-                                                <constraints>
-                                                    <constraint firstAttribute="bottom" secondItem="3ko-dE-eoW" secondAttribute="bottom" id="3h9-BG-TOZ"/>
-                                                    <constraint firstAttribute="trailing" secondItem="3ko-dE-eoW" secondAttribute="trailing" id="C8H-ns-9Fh"/>
-                                                    <constraint firstAttribute="height" constant="130" id="EIN-48-G2t"/>
-                                                    <constraint firstItem="3ko-dE-eoW" firstAttribute="top" secondItem="RPk-Hw-h6p" secondAttribute="top" id="JYm-bW-LM7"/>
-                                                    <constraint firstItem="3ko-dE-eoW" firstAttribute="leading" secondItem="RPk-Hw-h6p" secondAttribute="leading" id="hkP-yC-B7h"/>
-                                                    <constraint firstItem="3ko-dE-eoW" firstAttribute="height" secondItem="7Bz-Ci-uTH" secondAttribute="height" id="yzl-hW-FNO"/>
-                                                </constraints>
-                                                <viewLayoutGuide key="contentLayoutGuide" id="7Bz-Ci-uTH"/>
-                                                <viewLayoutGuide key="frameLayoutGuide" id="JGu-KB-dCe"/>
-                                            </scrollView>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
-                                            <constraint firstAttribute="trailing" secondItem="RPk-Hw-h6p" secondAttribute="trailing" id="5YG-hZ-lhF"/>
                                             <constraint firstAttribute="trailing" secondItem="Ukb-60-qFc" secondAttribute="trailing" id="6o2-aA-Tih"/>
                                             <constraint firstItem="2bT-1K-O96" firstAttribute="top" secondItem="JRm-Qm-cr7" secondAttribute="bottom" constant="25" id="D2Z-y3-8yJ"/>
                                             <constraint firstItem="JRm-Qm-cr7" firstAttribute="leading" secondItem="ru3-tV-gV7" secondAttribute="leadingMargin" id="FTi-dC-4hV"/>
                                             <constraint firstItem="Hw5-54-Ycv" firstAttribute="leading" secondItem="ru3-tV-gV7" secondAttribute="leading" constant="12" id="JOw-9c-6UM"/>
                                             <constraint firstItem="Ukb-60-qFc" firstAttribute="leading" secondItem="ru3-tV-gV7" secondAttribute="leading" constant="90" id="Jdz-VE-G1H"/>
-                                            <constraint firstItem="RPk-Hw-h6p" firstAttribute="leading" secondItem="ru3-tV-gV7" secondAttribute="leading" id="MBt-iz-MQQ"/>
                                             <constraint firstItem="2bT-1K-O96" firstAttribute="leading" secondItem="ru3-tV-gV7" secondAttribute="leading" constant="30" id="PAF-pJ-6lk"/>
                                             <constraint firstAttribute="height" constant="1200" id="TQ4-ll-dOV"/>
-                                            <constraint firstItem="RPk-Hw-h6p" firstAttribute="top" secondItem="Pj4-g9-lbA" secondAttribute="bottom" constant="25" id="W44-5c-eSb"/>
                                             <constraint firstItem="Pj4-g9-lbA" firstAttribute="leading" secondItem="ru3-tV-gV7" secondAttribute="leading" constant="8" id="Wyt-ee-yj2"/>
-                                            <constraint firstAttribute="bottom" secondItem="RPk-Hw-h6p" secondAttribute="bottom" constant="500" id="Z0Y-Iw-hqm"/>
                                             <constraint firstItem="Ukb-60-qFc" firstAttribute="top" secondItem="ru3-tV-gV7" secondAttribute="top" id="ZM2-rz-9x8"/>
                                             <constraint firstItem="Hw5-54-Ycv" firstAttribute="top" secondItem="ru3-tV-gV7" secondAttribute="top" constant="7.9999999999999858" id="gpC-c2-ZNR"/>
                                             <constraint firstItem="Pj4-g9-lbA" firstAttribute="top" secondItem="2bT-1K-O96" secondAttribute="bottom" constant="15" id="iFL-Tr-vGG"/>
