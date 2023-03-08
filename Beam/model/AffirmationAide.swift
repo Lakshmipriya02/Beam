@@ -1,21 +1,20 @@
 //
-//  Diary.swift
+//  AffirmationAide.swift
 //  Beam
 //
-//  Created by Lakshmi Priya on 07/03/23.
+//  Created by Advikaa Ramesh on 08/03/23.
 //
 
 import Foundation
 
-struct diary{
+struct AffirmationAide {
     let id : Int
-    let title : String
     let date  : Date
     let time : TimeZone
-    let content : String
-    let mood : Moods
+    let recording : [String]
+    let moodDetected: Mood
     
-    enum Moods: Int {
+    enum Mood: Int {
         case ecstatic = 0
         case happy = 1
         case indifferent = 2

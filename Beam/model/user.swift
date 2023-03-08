@@ -7,8 +7,10 @@
 
 import Foundation
 struct user {
-    let  name: String
+    let id: Int
+    let name: String
     let email: String
     let password: String
     let age: Int
+    
 }

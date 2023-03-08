@@ -27,6 +27,12 @@
 		4861233829B6F79A0067EB81 /* user.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4861233729B6F79A0067EB81 /* user.swift */; };
 		4861233B29B712590067EB81 /* Diary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4861233A29B712590067EB81 /* Diary.swift */; };
 		4861234029B714E30067EB81 /* SmileSaga.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4861233F29B714E30067EB81 /* SmileSaga.swift */; };
+		90F3632829B8E1ED00E1D1F8 /* AffirmationAide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F3632729B8E1ED00E1D1F8 /* AffirmationAide.swift */; };
+		90F3632A29B8E5EE00E1D1F8 /* Meditation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F3632929B8E5EE00E1D1F8 /* Meditation.swift */; };
+		90F3632C29B8E62A00E1D1F8 /* Therapists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F3632B29B8E62A00E1D1F8 /* Therapists.swift */; };
+		90F3632E29B8E87000E1D1F8 /* SelfAssessments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F3632D29B8E87000E1D1F8 /* SelfAssessments.swift */; };
+		90F3633029B8E8E700E1D1F8 /* Reminders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F3632F29B8E8E700E1D1F8 /* Reminders.swift */; };
+		90F3633229B8EA2500E1D1F8 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F3633129B8EA2500E1D1F8 /* Resources.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +77,12 @@
 		4861233729B6F79A0067EB81 /* user.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user.swift; sourceTree = "<group>"; };
 		4861233A29B712590067EB81 /* Diary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diary.swift; sourceTree = "<group>"; };
 		4861233F29B714E30067EB81 /* SmileSaga.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmileSaga.swift; sourceTree = "<group>"; };
+		90F3632729B8E1ED00E1D1F8 /* AffirmationAide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmationAide.swift; sourceTree = "<group>"; };
+		90F3632929B8E5EE00E1D1F8 /* Meditation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meditation.swift; sourceTree = "<group>"; };
+		90F3632B29B8E62A00E1D1F8 /* Therapists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Therapists.swift; sourceTree = "<group>"; };
+		90F3632D29B8E87000E1D1F8 /* SelfAssessments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfAssessments.swift; sourceTree = "<group>"; };
+		90F3632F29B8E8E700E1D1F8 /* Reminders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminders.swift; sourceTree = "<group>"; };
+		90F3633129B8EA2500E1D1F8 /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +125,12 @@
 				4861233729B6F79A0067EB81 /* user.swift */,
 				4861233A29B712590067EB81 /* Diary.swift */,
 				4861233F29B714E30067EB81 /* SmileSaga.swift */,
+				90F3632729B8E1ED00E1D1F8 /* AffirmationAide.swift */,
+				90F3632929B8E5EE00E1D1F8 /* Meditation.swift */,
+				90F3632B29B8E62A00E1D1F8 /* Therapists.swift */,
+				90F3632D29B8E87000E1D1F8 /* SelfAssessments.swift */,
+				90F3632F29B8E8E700E1D1F8 /* Reminders.swift */,
+				90F3633129B8EA2500E1D1F8 /* Resources.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -331,8 +349,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90F3633029B8E8E700E1D1F8 /* Reminders.swift in Sources */,
 				485AB7AD29AB42D300D3B250 /* AppDelegate.swift in Sources */,
 				485AB7AF29AB42D300D3B250 /* SceneDelegate.swift in Sources */,
+				90F3632C29B8E62A00E1D1F8 /* Therapists.swift in Sources */,
 				485AB7DE29AB448900D3B250 /* LoadingViewController.swift in Sources */,
 				4861233B29B712590067EB81 /* Diary.swift in Sources */,
 				4861234029B714E30067EB81 /* SmileSaga.swift in Sources */,
@@ -340,9 +360,13 @@
 				485AB7E329AB8AEB00D3B250 /* constants.swift in Sources */,
 				483F291929ADEC1800F8659A /* onboardingCollectionViewCell.swift in Sources */,
 				485AB7E129AB88D000D3B250 /* Helper.swift in Sources */,
+				90F3632A29B8E5EE00E1D1F8 /* Meditation.swift in Sources */,
+				90F3632E29B8E87000E1D1F8 /* SelfAssessments.swift in Sources */,
+				90F3633229B8EA2500E1D1F8 /* Resources.swift in Sources */,
 				485AB7E829AB953200D3B250 /* PresenterManager.swift in Sources */,
 				4861233829B6F79A0067EB81 /* user.swift in Sources */,
 				485AB7E529AB8F6500D3B250 /* SettingsViewController.swift in Sources */,
+				90F3632829B8E1ED00E1D1F8 /* AffirmationAide.swift in Sources */,
 				483F291C29ADF02B00F8659A /* Slide.swift in Sources */,
 				483F291E29AF2DC300F8659A /* LoginViewController.swift in Sources */,
 			);

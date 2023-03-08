@@ -6,7 +6,12 @@
 //
 
 import Foundation
+import UIKit
 
-struct SmileSaga : {
-    let Id : Int
+struct SmileSaga {
+    let id : Int
+    let date  : Date
+    let time : TimeZone
+    let image : [UIImage]
+    
 }
