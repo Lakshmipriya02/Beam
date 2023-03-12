@@ -14,7 +14,7 @@ struct recommendedTherapists {
     let profileImage : UIImage
     
     var formattedRating : String{
-        return String(format: "%1f", rating ?? 0)
+        return String(format: "%.1f liked", rating ?? 0)
     }
     
 }

@@ -71,7 +71,10 @@
                 <outlet property="TherapistDescription" destination="pRM-Rp-tvL" id="9RQ-Dw-iqu"/>
                 <outlet property="TherapistNameLabel" destination="yY2-Jr-NuU" id="MlQ-Av-W4S"/>
                 <outlet property="TherapistRatingLabel" destination="sgy-xq-Hbt" id="WZS-aB-a59"/>
+                <outlet property="therapistDescription" destination="pRM-Rp-tvL" id="q5o-GC-E7R"/>
+                <outlet property="therapistNameLabel" destination="yY2-Jr-NuU" id="S30-8l-R1D"/>
                 <outlet property="therapistProfileImageView" destination="aTn-Px-4dc" id="9Uy-Sw-Ibj"/>
+                <outlet property="therapistRatingLabel" destination="sgy-xq-Hbt" id="j0B-A3-Wl4"/>
             </connections>
             <point key="canvasLocation" x="222.90076335877862" y="40.140845070422536"/>
         </collectionViewCell>

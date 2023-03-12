@@ -14,6 +14,8 @@
 		4806EF3329B9D72B005ABCF6 /* TherapistsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4806EF3129B9D72B005ABCF6 /* TherapistsCollectionViewCell.swift */; };
 		4806EF3429B9D72B005ABCF6 /* TherapistsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4806EF3229B9D72B005ABCF6 /* TherapistsCollectionViewCell.xib */; };
 		4806EF3629BAFBFC005ABCF6 /* recommendedTherapists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4806EF3529BAFBFC005ABCF6 /* recommendedTherapists.swift */; };
+		4806EF3929BE29CE005ABCF6 /* TestsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4806EF3829BE29CE005ABCF6 /* TestsDetailViewController.swift */; };
+		4806EF3C29BE31F7005ABCF6 /* UIViewController+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4806EF3B29BE31F7005ABCF6 /* UIViewController+extension.swift */; };
 		483F291929ADEC1800F8659A /* onboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483F291829ADEC1800F8659A /* onboardingCollectionViewCell.swift */; };
 		483F291C29ADF02B00F8659A /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483F291B29ADF02B00F8659A /* Slide.swift */; };
 		483F291E29AF2DC300F8659A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483F291D29AF2DC300F8659A /* LoginViewController.swift */; };
@@ -67,6 +69,8 @@
 		4806EF3129B9D72B005ABCF6 /* TherapistsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TherapistsCollectionViewCell.swift; sourceTree = "<group>"; };
 		4806EF3229B9D72B005ABCF6 /* TherapistsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TherapistsCollectionViewCell.xib; sourceTree = "<group>"; };
 		4806EF3529BAFBFC005ABCF6 /* recommendedTherapists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recommendedTherapists.swift; sourceTree = "<group>"; };
+		4806EF3829BE29CE005ABCF6 /* TestsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestsDetailViewController.swift; sourceTree = "<group>"; };
+		4806EF3B29BE31F7005ABCF6 /* UIViewController+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+extension.swift"; sourceTree = "<group>"; };
 		483F291829ADEC1800F8659A /* onboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onboardingCollectionViewCell.swift; sourceTree = "<group>"; };
 		483F291B29ADF02B00F8659A /* Slide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
 		483F291D29AF2DC300F8659A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -159,9 +163,26 @@
 			path = TherapistsCollectionViewCell;
 			sourceTree = "<group>";
 		};
+		4806EF3729BE2981005ABCF6 /* TestsDetails */ = {
+			isa = PBXGroup;
+			children = (
+				4806EF3829BE29CE005ABCF6 /* TestsDetailViewController.swift */,
+			);
+			path = TestsDetails;
+			sourceTree = "<group>";
+		};
+		4806EF3A29BE31A0005ABCF6 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4806EF3B29BE31F7005ABCF6 /* UIViewController+extension.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
 		483F291729ADEBCD00F8659A /* views */ = {
 			isa = PBXGroup;
 			children = (
+				4806EF3729BE2981005ABCF6 /* TestsDetails */,
 				4806EF2D29B9A041005ABCF6 /* CardView */,
 				4806EF2229B92F5B005ABCF6 /* CollectionViewCells */,
 				483F291829ADEC1800F8659A /* onboardingCollectionViewCell.swift */,
@@ -211,6 +232,7 @@
 			isa = PBXGroup;
 			children = (
 				483F291A29ADF01900F8659A /* model */,
+				4806EF3A29BE31A0005ABCF6 /* extensions */,
 				483F291729ADEBCD00F8659A /* views */,
 				485AB7E629AB951500D3B250 /* manager */,
 				485AB7DF29AB88B000D3B250 /* Helper */,
@@ -404,10 +426,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4806EF3C29BE31F7005ABCF6 /* UIViewController+extension.swift in Sources */,
 				4806EF3629BAFBFC005ABCF6 /* recommendedTherapists.swift in Sources */,
 				90F3633029B8E8E700E1D1F8 /* Reminders.swift in Sources */,
 				485AB7AD29AB42D300D3B250 /* AppDelegate.swift in Sources */,
 				485AB7AF29AB42D300D3B250 /* SceneDelegate.swift in Sources */,
+				4806EF3929BE29CE005ABCF6 /* TestsDetailViewController.swift in Sources */,
 				90F3632C29B8E62A00E1D1F8 /* Therapists.swift in Sources */,
 				4806EF2829B9301E005ABCF6 /* selfAssessmentCollectionViewCell.swift in Sources */,
 				485AB7DE29AB448900D3B250 /* LoadingViewController.swift in Sources */,
