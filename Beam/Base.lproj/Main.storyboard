@@ -820,7 +820,7 @@
         <!--Affirmation Aide-->
         <scene sceneID="CAr-QC-Lpd">
             <objects>
-                <viewController id="Hte-6X-wlH" sceneMemberID="viewController">
+                <viewController id="Hte-6X-wlH" customClass="AffirmationAideViewController" customModule="Beam" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4jU-rM-86R">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="1200"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -830,9 +830,32 @@
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H4E-FX-nWV">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="1200"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What are you struggling with today?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MFW-kG-bsa">
+                                                <rect key="frame" x="14" y="8" width="273" height="21"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7LE-8n-D4p">
+                                                <rect key="frame" x="15" y="44" width="345" height="40"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="345" id="Fgc-Z1-nDx"/>
+                                                    <constraint firstAttribute="height" constant="40" id="v9A-GW-ZqB"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
+                                            <constraint firstItem="MFW-kG-bsa" firstAttribute="leading" secondItem="H4E-FX-nWV" secondAttribute="leading" constant="14" id="5jl-Sn-6yl"/>
+                                            <constraint firstItem="MFW-kG-bsa" firstAttribute="top" secondItem="H4E-FX-nWV" secondAttribute="topMargin" id="8iP-xy-BXT"/>
+                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="MFW-kG-bsa" secondAttribute="trailing" constant="20" symbolic="YES" id="H8T-Rq-0B3"/>
+                                            <constraint firstItem="7LE-8n-D4p" firstAttribute="leading" secondItem="H4E-FX-nWV" secondAttribute="leading" constant="15" id="LeE-sL-Thm"/>
+                                            <constraint firstItem="7LE-8n-D4p" firstAttribute="top" secondItem="MFW-kG-bsa" secondAttribute="bottom" constant="15" id="TMJ-sJ-gRK"/>
                                             <constraint firstAttribute="height" constant="1200" id="jFF-nS-RRt"/>
+                                            <constraint firstAttribute="trailing" secondItem="7LE-8n-D4p" secondAttribute="trailing" constant="15" id="trL-XT-Vnv"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -861,6 +884,9 @@
                         </barButtonItem>
                     </navigationItem>
                     <size key="freeformSize" width="375" height="1200"/>
+                    <connections>
+                        <outlet property="struggleDropdown" destination="7LE-8n-D4p" id="jRH-L1-IBG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n7h-L9-lSO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
