@@ -57,9 +57,6 @@ extension SettingsViewController : UICollectionViewDelegate , UICollectionViewDa
         default : return UICollectionViewCell()
         }
         
-        
-        
-       
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -71,7 +68,18 @@ extension SettingsViewController : UICollectionViewDelegate , UICollectionViewDa
             
         default : return 0
         }
+    }
         
+        func collectionView(_ collectionView : UICollectionView, didSelectItemAt indexPath : IndexPath){
+            
+            if collectionView == TherapistsCollectionView{
+                
+            }else {
+                let controller = TestsDetailViewController.instantiate()
+                navigationController?.pushViewController(controller, animated: true)
+            }
+    
+    
     }
     
 }
