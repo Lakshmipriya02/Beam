@@ -598,7 +598,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fhl-KY-VYa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1268" y="1750"/>
+            <point key="canvasLocation" x="1268" y="1772"/>
         </scene>
         <!--Smile Saga-->
         <scene sceneID="7Df-SN-cT2">
@@ -647,7 +647,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IMa-yx-GlG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2466" y="1766"/>
+            <point key="canvasLocation" x="2466" y="1772"/>
         </scene>
         <!--Meditate-->
         <scene sceneID="4P4-Cw-EUZ">
@@ -847,7 +847,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n7h-L9-lSO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3692" y="1764.5320197044337"/>
+            <point key="canvasLocation" x="3692" y="1772"/>
         </scene>
         <!--Home-->
         <scene sceneID="7CT-XR-HUt">
